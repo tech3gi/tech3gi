@@ -15,7 +15,7 @@
 <script src="https://kit.fontawesome.com/4ea2abb180.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width , initial-scale=1">
         <title>Tech3gi</title>
-        <body>
+        <body onload="myFunction()">
 
             <div class="loading">
                 <div class="obj"></div>
@@ -173,6 +173,15 @@
                 <h3> Copyright @tech3gi</h3>
                 <p>All right reserved</p>
             </footer>
+
+            <script>
+                var preloader = document.getElementsByClassName("loading");
+                function myFunction(){
+                    preloader.style.display = "none";
+                }
+            </script>
+
+
         </body>
     </head>
 </html>
