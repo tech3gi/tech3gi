@@ -105,9 +105,7 @@
                     </div>
                 </div>
             </div>
-                    <div style="font-size: 50px;" class="center">
-                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                    </div> 
+                    
         </body>
     
                     <div id="apple_update">
@@ -130,9 +128,7 @@
                 </div>
 
 
-                <div style="font-size: 50px;" class="center">
-                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                </div> 
+                
     
                 <div id="samsung_product">
                     <div class="card">
@@ -171,9 +167,7 @@
                         </p>
 
 
-                        <div style="font-size: 50px;" class="center">
-                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                        </div> 
+                       
 
                         <div id="mitron_app">
                             <div class="card">
@@ -195,10 +189,7 @@
                                     Support our indian app. <strong>Be Atamnirbhar.</strong> You can get the app using <a href="https://play.google.com/store/apps/details?id=com.mitron.tv&hl=en_IN">this link.</a>
                                 </p>
 
-
-                                <div style="font-size: 50px;" class="center">
-                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                                </div> 
+                                
 
     
     
@@ -214,12 +205,43 @@
                         </p>
                         <p>
                             You can also watch your facebook profile picture at there. Just explore and enjoy this amazing fact.
-                        </p>
+                        </p><br>
                         
 
-            
-            
+                        <div class="center"><h2><strong>Don't Forget to like our blogs.</strong></h2>
+                            <p>Your likes will motive us to make blogs. </p>
+                        </div>
 
+                        <script>
+                            function clickCounter() {
+                              if (typeof(Storage) !== "undefined") {
+                                if (localStorage.clickcount) {
+                                  localStorage.clickcount = Number(localStorage.clickcount)+1;
+                                } else {
+                                  localStorage.clickcount = 1;
+                                }
+                                document.getElementById("result").innerHTML = "You have liked " + localStorage.clickcount + " time(s).";
+                              } else {
+                                document.getElementById("result").innerHTML = "Sorry, Please try again later.";
+                              }
+                            }
+                            </script>
+
+
+                        <div style="font-size: 30px;" class="center">
+                            <button onclick="clickCounter()" type="button"><i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
+                            <div id="result"></div>
+                            
+                        </div> 
+
+
+                        
+                        <div class="center" style="font-size:40px;">
+                            <h3>Share our Blogs</h3>
+                            <a href="https://web.whatsapp.com/"><i class="fa fa-share-alt-square" aria-hidden="true"></i></a>
+                        </div><br><br>
+            
+                        
                         
                 
 
